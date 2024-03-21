@@ -17,10 +17,6 @@ Required by g2o (see below). Download and install instructions can be found at: 
 ## g2o (Included in dependencies folder)
 We use modified versions of [g2o](https://github.com/RainerKuemmerle/g2o) library to perform non-linear optimizations. The modified libraries (which are BSD) are included in the *dependencies* folder.
 
-## Use Dockerfile for auto installation
-For Ubuntu users, a Dockerfile is added for automatically installing all dependencies for reproducible environment, built and tested with KITTI dataset. (Thanks @satyajitghana for the contributions 👍 )
-
-
 # 3. Building SDPL-SLAM Library
 
 Clone the repository:
