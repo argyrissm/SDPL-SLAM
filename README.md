@@ -75,5 +75,14 @@ Where ti are the coefficients of 3D object location **t** in camera coordinates,
 The provided object pose format of **OMD** dataset is axis-angle + translation vector. A user can input a custom data format, but need to write a new function to input the data.
 
 ## Demo run
-Demo sequences will be provided soon.
+### KITTI Raw Dataset
+Download the [sequence](https://drive.google.com/file/d/1zdgelbpe0O4MDkLi6HvDUnFfUedEz_l0/view?usp=sharing) and execute the following command:
+```
+./example/sdpl_slam example/kitti.yaml PATH_TO_KITTI_SEQUENCE_DATA_FOLDER
+```
 
+### OMD
+Download the [sequence](https://drive.google.com/file/d/1vNSPRcxiDF4f7gsgFkDubGbqQjy1lPdJ/view?usp=sharing) and execute the following command:
+```
+./example/sdpl_slam example/omd.yaml PATH_TO_OMD_SEQUENCE_DATA_FOLDER
+```
